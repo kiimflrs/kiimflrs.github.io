@@ -1,0 +1,255 @@
+ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del dfn, em, img, ins, kbd, q, samp, small strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video  
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body
+{
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
+
+nav ul li 
+{
+	list-style: none;
+}
+
+blockquote,q 
+{
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after
+{
+	content: '';
+	content: none;
+}
+
+a
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*change color to suit your needs*/
+ins
+{
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/*change color to suit your needs*/
+mark
+{
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del
+{
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title]
+{
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*change color to suit your needs*/
+hr
+{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc
+	margin: 1em;
+	padding: 0;
+}
+
+input, select
+{
+	vertical-align: middle;
+}
+
+/*My Codes*/
+body
+{
+	background-color: #555;
+}
+.navbar
+{
+	border-radius: 0;
+	border: 0;
+	position: absolute;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+.navbar-inverse .navbar-brand
+{
+	color: white;
+}
+.btn-default
+{
+	background-color: #4e4e4e;
+	color: white;
+}
+.btn-default:hover
+{
+	background-color: black;
+	color: white;
+}
+/*.modal-header
+{
+	background-color: #555;
+}
+.modal-title
+{
+	color: white;
+}
+.modal-header .close
+{
+	color: white;
+}*/
+.navbar-inverse .navbar-brand:hover
+{
+	color: #9d9d9d;
+}
+.container-fluid .row
+{
+	margin-top: 5%;
+}
+.modal-title
+{
+	font-weight: bold;
+}
+.thumbnail
+{
+	background-color: #222222;
+	border: 0;
+	overflow: hidden;
+}
+.thumbnail:hover
+{
+	box-shadow: white;
+}
+.thumbnail img
+{
+	width: 100%;
+	height: auto;
+}
+.thumbnail img:hover
+{
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1,);
+}
+.thumbnail .caption
+{
+	color: white;
+}
+.glow
+{	
+	border: 1px solid red;
+}
+.caption p
+{
+	white-space: nowrap; ;
+	overflow: hidden;
+}
+.footer
+{
+	width: 100%;
+	height: 4em;
+	position: relative;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	background-color: #222;
+}
+.footer p
+{
+	color: white;
+}
+
+/*********Audio Control*************/
+
+
+/*.aligned { 
+	text-align: center; 
+	padding-bottom:28%; 
+}
+.aligned_input { 
+	text-align: center; 
+	padding-bottom:-10%; 
+}
+.aligned_text { 
+	text-align: center; 
+	font-size: 88%;
+}
+.no:hover {
+	background:none;
+} .no:active {
+	background: none;
+}*/
+#seconds {
+	font-size:10px;
+}
+.btn-custom {
+	background-color: black;
+	color:white;
+	transition-property: background, opacity;
+	transition-duration: 0.5s;
+} .btn-custom:hover, .btn-custom:active, .btn-custom:focus {
+	cursor: pointer;
+	opacity:0.5;
+	color:white;
+	//background-color:white;
+}
+.img-container
+{
+	height: 4em;
+	width: 4em;
+	position: absolute;
+	background-color: red;
+}
+.img-container #image
+{
+	height: 100%;
+	width: auto;
+}
+.details p
+{
+	position: relative;
+	top: 1em;
+	left: 5em;
+}
+#audio
+{
+	position: absolute;
+	top: .8em;
+}
+
